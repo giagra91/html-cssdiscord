@@ -147,5 +147,9 @@ aside.article>p{
 }
 
 .fa-long-arrow-alt-down{
-    margin-right: 15px;
+    margin: 0 15px;
+}
+
+.button-jumbotron{
+    margin-right: 20px;
 }
