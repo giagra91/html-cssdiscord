@@ -21,6 +21,14 @@ body{
     float: left;
 }
 
+relative{
+    position: relative;
+}
+
+absolute{
+    position: absolute;
+}
+
 header{
     height: 80px;
     width: 100%;
@@ -64,7 +72,7 @@ header .main-nav ul li a{
     text-align: right;
 }
 
-.white-button{
+.button{
     padding: 10px;
     border-radius: 25px;
     background-color: white;
@@ -79,3 +87,16 @@ header .main-nav ul li a{
     height: 400px;
     background-size: cover;
 }
+
+.jumbotron>.container{
+    width: 60%;
+    height: 300px;
+    color: white;
+    background-color: blue;
+    left: 200px;
+}
+
+.jumbotron>.container>h1{
+    font-size: 3rem;
+}
+
