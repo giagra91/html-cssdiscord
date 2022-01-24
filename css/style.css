@@ -5,8 +5,70 @@
     padding: 0;
 }
 
+body{
+    font-family: Whitney, sans-serif;
+}
+
+/* CLEARFIX */
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+/* FLOAT */
+.float-left{
+    float: left;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(49, 97, 224);
+    line-height: 80px;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+.main-nav{
+    width: calc(75% - 12px);
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .main-nav li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 25px;
+}
+
+header .main-nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 13%;
+}
+
+.login{
+    width: 13%;
+    text-align: right;
+}
+
+.white-button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    margin-right: 0;
 }
