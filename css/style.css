@@ -75,7 +75,7 @@ header .main-nav ul li a{
 
 .white-button{
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: white;
     color: black;
     font-weight: 700;
@@ -84,7 +84,7 @@ header .main-nav ul li a{
 
 .black-button{
     padding: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: black;
     color: white;
     font-weight: 700;
@@ -142,3 +142,10 @@ aside.article>p{
     font-weight: 550;
 }
 
+.grey{
+    background-color: lightgrey;
+}
+
+.fa-long-arrow-alt-down{
+    margin-right: 15px;
+}
