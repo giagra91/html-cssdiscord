@@ -21,11 +21,11 @@ body{
     float: left;
 }
 
-relative{
+.relative{
     position: relative;
 }
 
-absolute{
+.absolute{
     position: absolute;
 }
 
@@ -50,6 +50,7 @@ header{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 header .main-nav li{
@@ -72,11 +73,20 @@ header .main-nav ul li a{
     text-align: right;
 }
 
-.button{
+.white-button{
     padding: 10px;
     border-radius: 25px;
     background-color: white;
     color: black;
+    font-weight: 700;
+    margin-right: 0;
+}
+
+.black-button{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
     font-weight: 700;
     margin-right: 0;
 }
@@ -86,17 +96,49 @@ header .main-nav ul li a{
     width: 100%;
     height: 400px;
     background-size: cover;
+    margin-bottom: 85px;
 }
 
 .jumbotron>.container{
+    top:20%;
     width: 60%;
-    height: 300px;
+    height: 60%;
     color: white;
-    background-color: blue;
-    left: 200px;
+    left: 25%;
 }
 
 .jumbotron>.container>h1{
     font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.jumbotron>.container>p{
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+aside.image{
+    width: 65%;
+}
+
+aside.article{
+    width: 30%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.button-jumbotron{
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+aside.article>h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+aside.article>p{
+    font-weight: 550;
 }
 
